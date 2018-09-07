@@ -1,0 +1,138 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: 'montserratregular','montserratbold', sans-serif;
+ }
+
+ a {
+     color: #1a1a1d;
+     text-decoration: none;
+ }
+ul :last-child {
+    border-bottom: 2px solid #e5e5e6;
+}
+li {
+    font-weight: bold;
+    list-style-type: none;
+}
+.text-center {
+     text-align: center;
+}
+.btn:hover {
+    background-color:#18cfab;
+}
+ .page-wrapper {
+     min-width: 1920px;
+     height: 100%;
+ }
+
+ .container {
+     width: 1140px;
+     margin: 0 auto;
+ }
+ .page-block {
+     padding: 100px 0;
+ }
+.title {
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 100px;
+    color: #4e4e4e;
+}
+.title_line_top {
+    position: absolute;
+    top: 21%;
+    left: 47%;
+    width:76px;
+    height: 1px;
+    background-color: #18cfab;
+}
+.title_line_bottom {
+    position: absolute;
+    top: 22%;
+    left: 48%;
+    width:76px;
+    height: 1px;
+    margin: -3px;
+    background-color: #18cfab;
+}
+.plans {
+     display: inline-block;
+     width: 100%;    
+}
+.plans_item {
+     float: left;
+     width: 24.6%;
+     border: 2px solid #e5e5e6;
+     border-radius: 5px;
+}
+.plans_item_active {
+    box-shadow: 0px 0px 6px 0px #bababa;
+}
+.plans_title_active {
+    color: #18cfab;   
+}
+.plans_header {
+    position: relative;
+    font-family: 'montserratbold', sans-serif;
+    border-bottom: 1px solid #ababab;
+    color: #717171;
+    padding: 20px 0 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.offer {
+    position: absolute;
+    top: 10%;
+    left: 76%;
+    padding: 5px 30px 2px;
+    color: #fff;
+    background-color: #18cfab;
+    font-size: 11px;
+    transform: rotate(45deg);
+
+}
+.plans-price {
+    font-family: 'montserratbold', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 6px;
+    padding: 30px 0 30px;
+    background-color: #2e4a5b;
+}
+.plans-include {
+    margin-bottom: 24px;
+}
+.include_item {
+    color: #717171;
+    padding: 20px 0 11px;
+    border-top: 2px solid #e5e5e6;
+}
+.btn {
+    transition: all .3s;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.btn_blue {
+    width: 170px;
+    padding: 20px 0 20px;
+    background: #2e4a5b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.plans_price_active, 
+.btn_active{
+    background-color:#18cfab; 
+}
+.btn_active:hover {
+    background: #2e4a5b;
+}
